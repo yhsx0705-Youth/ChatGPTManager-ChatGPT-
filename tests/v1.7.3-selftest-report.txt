@@ -1,0 +1,48 @@
+﻿Passed=46; Failed=0; Total=46
+Synthetic fixtures only. Run folder: C:\Users\Administrator\AppData\Local\Temp\CodexSwitch-Source-1.7.3\tests\runs\20261027-102515-c9de14
+PASS Codex target resolves per-user and honors CODEX_HOME
+PASS Read-only detection: official
+PASS Read-only detection: transit
+PASS Latest official refresh recognized and saved byte-for-byte
+PASS Transit to official never overwrites Official or Transit
+PASS Cancel safety copy: stop before touching Official or active files
+PASS Skip a safety file: do not proceed
+PASS Cancel Official overwrite: keep active files and independent safety copy
+PASS Skip latest Official backup: do not apply Transit
+PASS Partial active overwrite is never reported as success
+PASS Unknown complete profile can switch to Transit without overwriting Official
+PASS Unknown or mixed configuration can restore Official
+PASS Running Codex: no copying, no backup mutation
+PASS Codex restarting between stages stops the switch
+PASS Missing Transit file: no backup or active mutations
+PASS Already official: refreshed tokens are never replaced by stale backup
+PASS Already transit: never copy Transit into Official
+PASS Identical Official and Transit folders are ambiguous
+PASS Identical Official and Transit files block a no-op relay switch
+PASS Process names: actual Codex ChatGPT.exe is detected
+PASS Desktop launch uses the registered Codex app identity
+PASS Desktop close targets only a visible Electron main window
+PASS Background close targets Codex only
+PASS Floating ball size and close behavior are constrained
+PASS Windows shell flags retain native overwrite confirmations
+PASS Actual Windows shell copies new files byte-for-byte
+PASS Native Windows copy imports exact config and auth paths
+PASS Unknown profile snapshots exact config and auth files without path confirmation
+PASS Existing Official pair is preserved while unknown profile is saved to history
+PASS Partial active profile is rejected without writing Official
+PASS Missing active profile needs no import or confirmation
+PASS First Transit switch accepts an unrecognized profile and preserves it
+PASS First Transit switch creates a missing target directory
+PASS Transit key save preserves default config byte-for-byte
+PASS Transit key save preserves other auth metadata
+PASS Transit key replacement synchronizes active Codex auth without copying config
+PASS Blank or whitespace-containing Transit keys are rejected
+PASS Transit remains recognized after Codex adds unrelated settings
+PASS Transit API-key metadata and key rotation do not lose mode
+PASS Unrecognized relay endpoint remains unknown
+PASS Different selected provider remains unknown
+PASS Mixed complete profile can switch after being preserved
+PASS Transit with empty API key remains unknown
+PASS Changed transit metadata never triggers an Official backup
+PASS Transit recognition supports quoted tables, comments and CRLF
+PASS Companion duration uses the local clock and Beijing start time

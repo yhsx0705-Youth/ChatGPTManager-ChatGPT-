@@ -1,0 +1,19 @@
+model_provider = "custom"
+model = "gpt-5.6-sol"
+model_reasoning_effort = "xhigh"
+disable_response_storage = true
+model_context_window = 900000
+model_auto_compact_token_limit = 900000
+service_tier = "fast"
+
+[features]
+fast_mode = true
+
+[model_providers.custom]
+name = "custom"
+wire_api = "responses"
+requires_openai_auth = true
+base_url = "https://www.acampus.cloud/v1"
+
+[windows]
+sandbox = "elevated"
